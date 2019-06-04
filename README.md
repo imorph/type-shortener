@@ -10,7 +10,7 @@ This is homework #1*
 type Shortener interface {
 	Shorten(url string) string
 	Resolve(url string) string
-	}
+}
 ```
 
 Метод Shorten - возвращать "короткую" ссылку (выбор алгоритма - за студентом), например otus.ru/some-long-link -> otus.ru/jhg34 и сохранять соответствие короткой и исходной ссылок в памяти (не используя БД, а использовать, например, map).
